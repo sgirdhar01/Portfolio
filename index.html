@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device_width, initial-scale=1.0">
+    <title>Soumil Girdhar Portfolo Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97bfd4f26c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container"></div>
+        <nav>
+            <!--<img src="logo.png" class="logo">-->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1><span>Soumil Girdhar</span><br></h1>
+            <p>Computer Science Student @University of Maryland - College Park</p>
+            
+        </div>
+</div>
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"><img src="background.png" alt=""></div>
+                
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Passionate about the intersection of Computer Science, Economics, and Machine Learning, 
+                    I am a dedicated undergraduate student at the University of Maryland
+                    pursuing a Bachelor of Science in Computer Science with a focus on Machine Learning and a Bachelor of Science in Economics. 
+                    I am on track to graduate in December 2025. My technical proficiency spans programming languages such as Java, Python, R, MATLAB, C, x86 Assembly, JavaScript, and HTML/CSS.
+                    When I'm not immersed in my studies or work, you can find me enjoying a game of chess, refining my video editing skills, or participating in event planning and public speaking activities.
+                    I am excited to connect with fellow professionals, exchange insights, and collaborate on projects that push the boundaries of what's possible.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, Java, C, x86-64 Assembly, MATLAB, R, JavaScript, HTML/CSS</li>
+                            <li><span>Framework/Tools</span><br>AWS, Unix/Linux, Emacs, Eclipse, Jupyter Notebook, VS Code, JUnit, React, Node.js</li>
+                            <li><span>Concepts</span><br>Multi-variable Calculus, Linear Algebra, Applied Statistics, Discrete Math, Algorithms, Object-Oriented Programming, Functional Programming, Cloud Computing, Modeling, Machine Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>September 2023 - Present</span><br>Treasurer @ AWS Clouds Club @ UMD<br><br>
+                                We are the UMD chapter of the AWS Cloud Club program, and we work with Amazon Web Services 
+                                to inform students about cloud computing technologies, specifically AWS. 
+                                We have over 100 members, and we host a variety of activities, such as lectures, 
+                                custom AWS workshops, talks by guest speakers, hackathons, 
+                                and preparing students for the AWS Cloud Practitioner certification exam. 
+                                As Treasurer, my duties involve implementing a budget system, managing the finances of the club, 
+                                reporting the status of the club’s finances, 
+                                and spearheading fundraising to ensure that the club has the necessary funds to be successful.</li>
+                            <li><span>December 2022-Present</span><br>Math Coach @ UMD <br><br> In my role as a Math Coach at the University of Maryland, 
+                                I have honed my skills in guiding and supporting fellow students in their 
+                                mathematical endeavors. Through collaborative engagement and tailored approaches,
+                                 I strive to empower others with a solid mathematical foundation.
+                                 In my role as a Math Coach at the University of Maryland,
+                                  I have honed my skills in guiding and supporting fellow students 
+                                  in their mathematical endeavors. Through collaborative engagement and tailored approaches, I strive to empower others with a solid mathematical foundation.
+                            </li>
+                            <li><span>October 2019 - December 2019</span><br>Internship @ Johnson & Johnson<br><br>
+                                I was one of the select students from Hillsborough High School who were picked to 
+                                participate in addressing real-time business challenges, 
+                                acquiring practical work exposure, and engaging directly with 
+                                Johnson & Johnson's Information Technology Department. <br>
+
+                                My team and I were posed with the challenge of monitoring and improving the 
+                                mental health of the employees. Our solution involved creating an 
+                                application that would limit the ability for employees to work when 
+                                they were off-duty or on vacation. The application also monitored 
+                                whether or not certain employees were over-worked by analyzing screen time 
+                                and other relevant statistics, and asking survey questions.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August 2022 - Present</span><br>B.S. in Computer Science from the University of Maryland - College Park</li>
+                            <li><span>September 2018 - June 2022</span><br>Hillsborough High School, New Jersey</li>
+                        </ul>
+                    </div>
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="portfolioproject.png" alt="">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>This website displays my background and my work.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="fraud.jpg" alt="">
+                <div class="layer">
+                    <h3>Bank Fraud Detecion</h3>
+                    <p>This project assessed the validity of bank transactions of various forms 
+                        such as payments, transfers,cash outs, and debits using several 
+                        quantitative indicators to model and predict fraud in 
+                        financial payment services.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/SoumilG360" class="btn">See More</a>
+    </div>
+
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="contact-right">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>soumilg360@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>609-906-2324</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/soumil-girdhar?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbrM2SqxDQzuWNeoINvUMyQ%3D%3D"><i class="fa-brands fa-linkedin"></i> Soumil Girdhar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="copyright">
+        <p>Copyright @ Kevin. Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div> -->
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxa1sYSfdCAJhBS1jQXzcSI35xa4H-zgXzdm_JEE7VpDaTTDTWI64olcWj9c0XvwrOiaA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
